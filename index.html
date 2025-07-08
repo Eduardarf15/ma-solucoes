@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="quiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML</title>
+</head>
+<body>
+    <header>
+        <h1>QUIZ</h1>
+        <p>Quiz para programadores. Teste seu conhecimento.</p>
+    </header>
+    <main>
+        <!--Sessões ne bb-->
+        <section>
+            <h2>Sobre o quiz</h2>
+            <p><strong>Este Quiz </strong>foi feito para <i>testar seu nivel de programação,</i> conceitos básicos e mais</p>
+            <p>Você passará por diferentes tipos de perguntaas, incluindo múltipla escolha, texto e perguntas de data. Desafie-se!</p>
+            <p>Tendo <abbr title="Hypertext Markup Language">HTML</abbr>,  <abbr title="Cascanding Style Sheets">CSS</abbr>,  <abbr title="JavaScript">JS</abbr>. Podendo incluir informações da web.</p>
+        </section>
+        <!--Pergunta 1: múltipla escolha-->
+        <section>
+    <h2>Qual linguagem é usada para estruturar páginas web? </h2>
+    <form>
+        <input type="radio" value="Python" id="p1a" name="pergunta1">
+        <label for="p1a">Python</label><br>
+        <input type="radio" value="HTML" id="p1b" name="pergunta1">
+        <label for="p1b">HTML</label><br>
+        <input type="radio" value="Ruby" id="p1c" name="pergunta1">
+        <label for="p1c">Ruby</label>
+    </form>
+</section>
+<!--Pergunta 2: text-->
+<section>
+<h2>Na URL abaixo <strong>https://www.google.com/ </strong>o trecho"google.com" é ____:</h2>
+<form>
+<input type="text" name="pergunta2" placeholder="Digite sua resposta...">
+</form>
+</section>
+<!--Pergunta 3: senha-->
+<section>
+    <h2>Escreva um exemplo de senha forte:</h2>
+    <form>
+        <input type="password" id="p3" name="pergunta3" placeholder="Digite sua senha..." required>
+    </form>
+</section>
+<!--Pergunta 4: data-->
+<h2>Em que ano o <abbr title="Hypertext Markup Language">HTML</abbr> teve sua primeira versão?</h2>
+<form>
+    <input type="date" required>
+</form>
+<!--Pergunta 5: seleção múltipla-->
+<section>
+    <h2>Quais desses abaixo são considerados linguagens de programação</h2>
+    <form>
+        <input type="checkbox" id="p5a" name="pergunta5" value="js">
+        <label for="p5a">JS</label>
+                <input type="checkbox" id="p5a" name="pergunta5" value="C++">
+        <label for="p5a">C++</label>
+                <input type="checkbox" id="p5a" name="pergunta5" value="C#">
+        <label for="p5a">C#</label>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Python">
+        <label for="p5a">Python</label>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Google">
+        <label for="p5a">Google</label>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Sistema">
+        <label for="p5a">Sistema</label>
+    </form>
+</section>
+<!--Pergunta 6: file-->
+<section>
+    <h2>Faça upload de um arquivo contendo codigo html</h2>
+    <form>
+        <input type="file" id="p6" name="pergunta6">
+    </form>
+</section>
+<!--Pergunta 7: menu suspenso-->
+<h2>selecione o agtributo input que define o seu tipo</h2>
+<form>
+    <select name="pergunta7" id="p7">
+        <option value="id">id</option>
+        <option value="type">type</option>
+        <option value="placeholder">placeholder</option>
+    </select>
+</form>
+    </main>
+    <footer></footer>
+</body>
+</html>
